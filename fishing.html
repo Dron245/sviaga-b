@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<title>Рыбалка</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20241023154541">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css?_v=20241023154541" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper select-item header-temnyy fish">
+		<header class="header">
+			<div class="header__drop"></div>
+			<div class="header__container container">
+				<div class="header__bg">
+					<a target="_blank" href="home.html" class="header__logo">
+						<img class="header__logo-t" src="img/header/logo-header.svg" alt="" />
+						<img class="header__logo-l" src="img/header/logo-header-l.svg" alt="" />
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+								<li class="menu__item menu__item_group">
+									<div class="menu__subtitle">
+										<span class="menu__link">Услуги</span>
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M16.3363 6.4462L10.4801 12.21C10.3523 12.3364 10.1798 12.4073 10.0001 12.4073C9.82032 12.4073 9.64783 12.3364 9.52006 12.21L3.66381 6.44745C3.53524 6.32111 3.36219 6.25031 3.18193 6.25031C3.00168 6.25031 2.82863 6.32111 2.70006 6.44745C2.63675 6.50917 2.58643 6.58294 2.55208 6.66442C2.51772 6.74589 2.50002 6.83341 2.50002 6.92183C2.50002 7.01025 2.51772 7.09777 2.55208 7.17924C2.58643 7.26071 2.63675 7.33448 2.70006 7.3962L8.55506 13.1587C8.94071 13.5374 9.45959 13.7495 10.0001 13.7495C10.5405 13.7495 11.0594 13.5374 11.4451 13.1587L17.3001 7.3962C17.3636 7.33446 17.414 7.26062 17.4485 7.17903C17.483 7.09744 17.5007 7.00977 17.5007 6.9212C17.5007 6.83264 17.483 6.74497 17.4485 6.66338C17.414 6.58179 17.3636 6.50795 17.3001 6.4462C17.1715 6.31986 16.9984 6.24906 16.8182 6.24906C16.6379 6.24906 16.4649 6.31986 16.3363 6.4462Z" fill="#50453B" />
+										</svg>
+									</div>
+									<ul class="menu__sublist">
+										<li class="menu__subitem">
+											<a target="_blank" href="restoran.html" class="menu__sublink">Ресторан</a>
+										</li>
+										<li class="menu__subitem">
+											<a target="_blank" href="banquets.html" class="menu__sublink">Банкетные залы</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item menu__item_group">
+									<div class="menu__subtitle">
+										<span class="menu__link">Развлечения</span>
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M16.3363 6.4462L10.4801 12.21C10.3523 12.3364 10.1798 12.4073 10.0001 12.4073C9.82032 12.4073 9.64783 12.3364 9.52006 12.21L3.66381 6.44745C3.53524 6.32111 3.36219 6.25031 3.18193 6.25031C3.00168 6.25031 2.82863 6.32111 2.70006 6.44745C2.63675 6.50917 2.58643 6.58294 2.55208 6.66442C2.51772 6.74589 2.50002 6.83341 2.50002 6.92183C2.50002 7.01025 2.51772 7.09777 2.55208 7.17924C2.58643 7.26071 2.63675 7.33448 2.70006 7.3962L8.55506 13.1587C8.94071 13.5374 9.45959 13.7495 10.0001 13.7495C10.5405 13.7495 11.0594 13.5374 11.4451 13.1587L17.3001 7.3962C17.3636 7.33446 17.414 7.26062 17.4485 7.17903C17.483 7.09744 17.5007 7.00977 17.5007 6.9212C17.5007 6.83264 17.483 6.74497 17.4485 6.66338C17.414 6.58179 17.3636 6.50795 17.3001 6.4462C17.1715 6.31986 16.9984 6.24906 16.8182 6.24906C16.6379 6.24906 16.4649 6.31986 16.3363 6.4462Z" fill="#50453B" />
+										</svg>
+									</div>
+									<ul class="menu__sublist">
+										<li class="menu__subitem">
+											<a target="_blank" href="restoran.html" class="menu__sublink">Ресторан</a>
+										</li>
+										<li class="menu__subitem">
+											<a target="_blank" href="banquets.html" class="menu__sublink">Банкетные залы</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item"><a target="_blank" href="rent.html" class="menu__link">Бронирование</a></li>
+								<li class="menu__item"><a target="_blank" href="contacts.html" class="menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions actions-header">
+						<a target="_blank" href="#" class="actions-header__link">
+							<svg viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<mask id="mask0_134_304" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="32" height="33">
+									<path d="M4.16663 4.6665H35.8333V36.3332H4.16663V4.6665Z" fill="white" />
+								</mask>
+								<g mask="url(#mask0_134_304)">
+									<path d="M22.9833 4.89987L22.0333 4.76653C19.1782 4.3543 16.2647 4.76213 13.6325 5.94248C11.0003 7.12283 8.7579 9.02707 7.16663 11.4332C5.47355 13.7332 4.46427 16.4644 4.25492 19.3127C4.04558 22.1609 4.64469 25.0104 5.98329 27.5332C6.12029 27.786 6.20558 28.0636 6.23419 28.3498C6.26281 28.6359 6.23417 28.9249 6.14996 29.1999C5.46663 31.5499 4.83329 33.9165 4.16663 36.3999L4.99996 36.1499C7.24996 35.5499 9.49996 34.9499 11.75 34.3999C12.2249 34.3011 12.7185 34.3476 13.1666 34.5332C15.1853 35.5184 17.3913 36.0604 19.6367 36.1229C21.8821 36.1853 24.1148 35.7667 26.1851 34.8952C28.2554 34.0238 30.1154 32.7195 31.6401 31.0701C33.1649 29.4206 34.3192 27.4641 35.0255 25.3318C35.7319 23.1995 35.974 20.9408 35.7356 18.7072C35.4972 16.4737 34.7837 14.3169 33.6432 12.3818C32.5027 10.4467 30.9614 8.77786 29.1228 7.48741C27.2842 6.19696 25.1909 5.31471 22.9833 4.89987ZM27.1833 26.7665C26.5776 27.3089 25.8389 27.6809 25.0426 27.8449C24.2462 28.0088 23.4207 27.9588 22.65 27.6999C19.1576 26.7165 16.1277 24.5252 14.1 21.5165C13.3254 20.4524 12.7028 19.2857 12.25 18.0499C12.0047 17.3328 11.9605 16.5623 12.1221 15.8219C12.2837 15.0815 12.6449 14.3995 13.1666 13.8499C13.4206 13.5257 13.7663 13.2856 14.1587 13.1607C14.5511 13.0359 14.972 13.0321 15.3666 13.1499C15.7 13.2332 15.9333 13.7165 16.2333 14.0832C16.4766 14.7715 16.7616 15.4449 17.0833 16.0999C17.3273 16.434 17.4293 16.8512 17.3668 17.2603C17.3043 17.6693 17.0826 18.0371 16.75 18.2832C16 18.9499 16.1166 19.4999 16.65 20.2499C17.829 21.9485 19.456 23.2869 21.35 24.1165C21.8833 24.3499 22.2833 24.3999 22.6333 23.8499C22.7833 23.6332 22.9833 23.4499 23.15 23.2499C24.1166 22.0332 23.8166 22.0499 25.35 22.7165C25.8383 22.9215 26.3116 23.1615 26.7666 23.4332C27.2166 23.6999 27.9 23.9832 28 24.3832C28.0962 24.8171 28.0709 25.2692 27.9268 25.6897C27.7827 26.1102 27.5254 26.4828 27.1833 26.7665Z" fill="#FFFAF0" />
+								</g>
+							</svg>
+						</a>
+						<a target="_blank" href="#" class="actions-header__button button">Забронировать</a>
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__banner banner">
+				<div class="banner__container">
+					<div class="banner__content">
+						<div class="banner__body">
+							<h1 class="banner__title">ВАЖНЫМ УСЛОВИЕМ ХОРОШЕЙ РЫБАЛКИ ЯВЛЯЕТСЯ, КОНЕЧНО ЖЕ, САМА РЫБА.</h1>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__cottage cottage">
+				<div class="cottage__container">
+					<div class="cottage__body house-light">
+						<div class="cottage__main description">
+							<div class="description__slider swiper">
+								<div class="description__wrapper swiper-wrapper">
+									<div class="description__slide swiper-slide">
+										<img src="img/relaxation/fish.webp" alt="Рыбалка" />
+									</div>
+									<div class="description__slide swiper-slide">
+										<img src="img/relaxation/fish.webp" alt="Рыбалка" />
+									</div>
+									<div class="description__slide swiper-slide">
+										<img src="img/relaxation/fish.webp" alt="Рыбалка" />
+									</div>
+								</div>
+								<div class="description__pagination pagination galery__pagination"></div>
+							</div>
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Продолжительность:</p>
+									<p class="costs__number title">8 часов</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">Участники:</p>
+									<p class="costs__number title">2</p>
+								</div>
+							</div>
+						</div>
+						<div class="cottage__data data-house">
+							<p class="data-house__title subtitle subtitle_temnyy">Рыбалка и прокат оборудования</p>
+							<p class="data-house__text subtext subtitle subtitle_temnyy">
+								В нашем водоёме водится только самая качественная рыба. Мы предлагаем большой ассортимент разнообразных видов. У нас ловится судак, жерех, щука, окунь. В летний период ловится сом.
+							</p>
+							<div class="data-house__bottom">
+								<p class="data-house__text subtext subtitle subtitle_temnyy">
+									Все лодки оснащены эхолостами, электроякорями, GPS компасами. Есть собственная лодочная станция
+								</p>
+								<a href="#" class="data-house__link button button_temnyy">Оставить заявку</a>
+							</div>
+						</div>
+					</div>
+					<div class="cottage__features features">
+						<div class="features__item">
+							<p class="text">
+								За 7 дней бронь с предоплатой 50% от стоимости, если происходит отмена менее чем за 2-е суток до предполагаемой даты и времени выезда, то залог не возвращается.</p>
+						</div>
+						<div class="features__item">
+							<p class="text">
+								Цена указана на 2 человека в 1 лодке помимо егеря.
+								Дети до 18 лет допускаются только в сопровождении родителей.
+								Лица в алкогольном опьянении не допускаются.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__rental rental">
+				<div class="rental__container">
+					<h1 class="rental__title title title_temnyy">Цены на прокат оборудования:</h1>
+					<ul class="rental__list house-light">
+						<li class="rental__item rental__item_top">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Лодка</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">Цена</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Волжанка 51 с мотором SUZUKI 90 л.с. оснащена приборами: humminbird solix 10, garmin panoptix, электромотором motorguide.</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">30 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">FINVAL 555 с мотором MERCURY 225 л.с. оснащена приборами: humminbird solix 12, garmin panoptix, электромотором minn kota.</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">30 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">SPINCH 545 с мотором SUZUKI 150 л.с. оснащена приборами: Lowrance НDS 16, raymarine dragonfly, garmin panoptix, электромотором motorguide.</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">24 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Волжанка 5.0 с мотором SUZUKI 115 л.с. оснащена приборами: Lowrance LIVE 16, garmin panoptix, электромотором minn kota.</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">24 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Orion boat 4,6</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">20 400 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">WINBOAT 500 с мотором HONDA 90 л.с оснащена приборами: Lowrance HDS carbon 9, raymarine dragonfly, garmin panoptix, электромотором motorguide</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">24 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">SMOKERCRAFT ULTIMA 172 с мотором YAMAHA 172 л.с оснащена приборами: humminbird solix 12, garmin panoptix, электромотором motorguide</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">30 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">WYATBOAT 490DC с мотором YAMAHA 60 л.с оснащена приборами: Lowrance carbon 9, электромотором motorguide</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">18 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Волжанка 46 с мотором YАМАНА 60 л.с. оснащена приборами: humminbird solix 12, Lowrance 12, garmin panoptix, электромотором motorguide.</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">20 400 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Волжанка 46 с мотором MERCURY 40 л.с оснащена приборами: Garmin Striker, электромотором motorguide</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">18 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">SPINCH 545 с мотором SUZUKI 150 л.с. оснащена приборами: Lowrance HDS 16, , garmin panoptix, электромотором motorguide.</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">30 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">FINVAL 505 с мотором SUZUKI 90 л.с оснащена приборами: Lowrance carbon 9, garmin panoptix, электромотором motorguide</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">36 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">NORTH SILVER 545 с мотором MERCURY 150 л.с оснащена приборами: Lowrance LIVE 12, garmin panoptix, электромотором motorguide</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">48 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">СИБИРЬ с мотором MERCURY 30 л.с оснащена приборами: Lowrance 12, электромотором motorguide</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">18 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">SILVER 645 с мотором MERCURY 300 л.с оснащена приборами: Lowrance LIVE 16, humminbird solix 12, garmin panoptix, электромотором motorguide</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">48 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Волжанка 46 с мотором HIDEA 60</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">18 000 ₽</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Волжанка 5.0 с мотором SUZUKI 90 л.с оснащена приборами: Lowrance, garmin panoptix, электромотором motorguide</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">24 000 ₽</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<ul class="rental__list rental__list_bottom house-light">
+						<li class="rental__item rental__item_top">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Удочка</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">Цена</p>
+								</div>
+							</div>
+						</li>
+						<li class="rental__item">
+							<div class="description__costs costs">
+								<div class="costs__cost costs__cost_budni">
+									<p class="costs__text subtext">Поплавочная удочка без наживки</p>
+								</div>
+								<div class="costs__cost costs__cost_vyh">
+									<p class="costs__text subtext">350 ₽</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="page__banquet banquet banquet-form">
+				<div class="banquet__container">
+					<div class="banquet-form__body">
+						<div class="banquet-form__content">
+							<h3 class="banquet-form__title title">Сделайте ваш праздник незабываемым</h3>
+							<p class="banquet-form__text subtitle">Оставьте заявку и получите презентацию нашего предложения по созданию банкета</p>
+							<form action="#" class="banquet-form__form">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="input banquet-form__input">
+								<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Номер телефона" class="input banquet-form__input">
+								<button type="submit" class="button button_temnyy banquet-form__button">Отправить</button>
+							</form>
+							<p class="banquet-form__politica">Нажимая на кнопку “отправить” вы соглашаетесь с политикой в отношении обработки персональных данных</p>
+						</div>
+						<div class="banquet-form__img">
+							<img src="img/banquet/b-form.webp" alt="Image">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__all-relax all-relax">
+				<div class="all-relax__container">
+					<h1 class="all-relax__title title title_temnyy">Другие развлечения в «Свияга»</h1>
+					<div class="all-relax__body">
+						<article class="banquet__item banquet__item_3">
+							<img src="img/sport/all1.webp" alt="Лазертаг">
+							<h3 class="banquet__title subtitle">Лазертаг</h3>
+							<div class="banquet__bottom">
+								<a href="#" class="arrow"><img src="img/grand/arrow.svg" alt="Перейти"></a>
+							</div>
+						</article>
+						<article class="banquet__item banquet__item_1">
+							<img src="img/sport/all2.webp" alt="Пейнтбол">
+							<h3 class="banquet__title subtitle">Пейнтбол</h3>
+							<div class="banquet__bottom">
+								<a href="#" class="arrow"><img src="img/grand/arrow.svg" alt="Перейти"></a>
+							</div>
+						</article>
+						<article class="banquet__item banquet__item_2">
+							<img src="img/sport/all3.webp" alt="Рыбалка">
+							<h3 class="banquet__title subtitle">Рыбалка и прокат оборудования</h3>
+							<div class="banquet__bottom">
+								<a href="#" class="arrow"><img src="img/grand/arrow.svg" alt="Перейти"></a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="page__questions questions">
+				<div class="questions__container">
+					<h3 class="questions__title title title_temnyy">Популярные вопросы:</h3>
+					<div data-spollers class="spollers">
+						<details class="spollers__item">
+							<summary class="spollers__title">
+								<span>Какие удобства и услуги предлагает отель?</span>
+								<span class="spollers__arrow arrow">
+									<img src="img/grand/arrow.svg" alt="Image" />
+								</span>
+							</summary>
+							<div class="spollers__body">
+								<p class="text text_temnyy">
+									Комфортабельные номера, уютные коттеджи и апартаменты с кухней - на любой вкус и бюджет. Вкусное и
+									разнообразное питание в ресторане с панорамным видом, кафе на территории отеля и на летней террасе
+									для барбекю. Возможность активного отдыха и много другое.
+								</p>
+							</div>
+						</details>
+						<details class="spollers__item">
+							<summary class="spollers__title">
+								<span>Какая стоимость проживания?</span>
+								<span class="spollers__arrow arrow">
+									<img src="img/grand/arrow.svg" alt="Image" />
+								</span>
+							</summary>
+							<div class="spollers__body">
+								<p class="text text_temnyy">
+									Комфортабельные номера, уютные коттеджи и апартаменты с кухней - на любой вкус и бюджет. Вкусное и
+									разнообразное питание в ресторане с панорамным видом, кафе на территории отеля и на летней террасе
+									для барбекю. Возможность активного отдыха и много другое.
+								</p>
+							</div>
+						</details>
+						<details class="spollers__item">
+							<summary class="spollers__title">
+								<span>Как добраться до отеля?</span>
+								<span class="spollers__arrow arrow">
+									<img src="img/grand/arrow.svg" alt="Image" />
+								</span>
+							</summary>
+							<div class="spollers__body">
+								<p class="text text_temnyy">
+									Комфортабельные номера, уютные коттеджи и апартаменты с кухней - на любой вкус и бюджет. Вкусное и
+									разнообразное питание в ресторане с панорамным видом, кафе на территории отеля и на летней террасе
+									для барбекю. Возможность активного отдыха и много другое.
+								</p>
+							</div>
+						</details>
+						<details class="spollers__item">
+							<summary class="spollers__title">
+								<span>Какие правила проживания в отеле?</span>
+								<span class="spollers__arrow arrow">
+									<img src="img/grand/arrow.svg" alt="Image" />
+								</span>
+							</summary>
+							<div class="spollers__body">
+								<p class="text text_temnyy">
+									Комфортабельные номера, уютные коттеджи и апартаменты с кухней - на любой вкус и бюджет. Вкусное и
+									разнообразное питание в ресторане с панорамным видом, кафе на территории отеля и на летней террасе
+									для барбекю. Возможность активного отдыха и много другое.
+								</p>
+							</div>
+						</details>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row">
+					<div class="column">
+						<a target="_blank" href="home.html" class="footer__logo">
+							<img src="img/footer/logo-footer.webp" alt="Image">
+						</a>
+						<div class="footer__button button">Забронировать</div>
+					</div>
+					<div class="column">
+						<div class="column__title">О нас</div>
+						<div class="column__items">
+							<a target="_blank" href="payment.html" class="link"> Способы оплаты </a>
+							<a target="_blank" href="payment.html" class="link">Правила проживания </a>
+						</div>
+					</div>
+					<div class="column">
+						<div class="column__title">Услуги</div>
+						<div class="column__items">
+							<a target="_blank" href="restoran.html" class="link"> Ресторан </a>
+							<a target="_blank" href="banquets.html" class="link"> Банкетные залы </a>
+						</div>
+					</div>
+					<div class="column">
+						<div class="column__title">
+							<a target="_blank" href="relaxation.html" class="column__link">Развлечения</a>
+
+						</div>
+						<div class="column__items">
+							<a target="_blank" href="relaxation.html" class="link"> Активности </a>
+							<a target="_blank" href="banquets.html" class="link"> Организация свадеб </a>
+						</div>
+					</div>
+					<div class="column">
+						<div class="column__title">
+							<a href="rent.html" class="column__link">Бронирование</a>
+
+						</div>
+						<div class="column__items">
+							<a href="rent.html" class="link"> Аренда домов </a>
+							<a href="rooms.html" class="link"> Аренда номеров </a>
+						</div>
+					</div>
+					<div class="column">
+						<div class="column__title">Контакты</div>
+						<div class="column__items">
+							<div class="column__item">
+								<div class="text">Вопросы по бронированию номеров/домиков</div>
+								<a href="tel:+79872262624" class="link"> +7 (987) 226-26-24 </a>
+							</div>
+							<div class="column__item">
+								<div class="text">Банкетный менеджер:</div>
+								<a href="tel:+79872262624" class="link"> +7 (987) 296-96-54 </a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr />
+				<div class="footer__row-bottom">
+					<a href=""> Политика конфиденциальности </a>
+					<a href="">Правила обработки персональных данных</a>
+					<a href="">© 2024 Relume. All rights reserved.</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20241023154541"></script>
+</body>
+
+</html>
